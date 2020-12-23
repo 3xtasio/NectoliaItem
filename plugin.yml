@@ -1,0 +1,9 @@
+name: NectoliaCore
+version: 1.2
+author: Extasio
+main: nectoliacore.Nectoliacore
+commands:
+  nourriture:
+    description: Commande pour les nourritures.
+    permission: nourriture
+

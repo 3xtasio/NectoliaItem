@@ -1,0 +1,38 @@
+Main:
+  item:
+    speed:
+      ==: org.bukkit.inventory.ItemStack
+      type: COOKIE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: "§aCookie de Vitesse"
+        lore:
+        - "§7Mange ça et court vite !"
+    force:
+      ==: org.bukkit.inventory.ItemStack
+      type: CARROT
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: "§cCarrotte de Force"
+        lore:
+        - "§7Mange ça et devient fort !"
+    regen:
+      ==: org.bukkit.inventory.ItemStack
+      type: BAKED_POTATO
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: "§dPatate de régenération"
+        lore:
+        - "§7Mange ça et soigne-toi !"
+    fire:
+      ==: org.bukkit.inventory.ItemStack
+      type: MELON
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: "§6Pastèque de résistance au feu"
+        lore:
+        - "§7Mange ça et résiste au feu !"
